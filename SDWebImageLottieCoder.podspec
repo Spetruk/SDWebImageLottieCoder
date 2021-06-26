@@ -33,6 +33,6 @@ A Lottie animation coder which use SDAnimatedImageView instead of LOTAnimationVi
 
   s.source_files = 'SDWebImageLottieCoder/Classes/**/*', 'SDWebImageLottieCoder/Module/SDWebImageLottieCoder.h'
   
-  s.dependency 'SDWebImage', :git => 'https://github.com/Spetruk/SDWebImage.git'
+  s.dependency 'SDWebImage', '~> 5.10'
   s.dependency 'librlottie', '~> 0.2'
 end
